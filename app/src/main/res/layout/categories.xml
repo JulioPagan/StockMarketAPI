@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Categories to Query"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tech"
+        android:id="@+id/check_tech"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Airlines"
+        android:id="@+id/check_airlines"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="finance"
+        android:id="@+id/check_finance"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Data!"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:id="@+id/check_results"/>
+
+</LinearLayout>
